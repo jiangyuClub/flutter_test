@@ -5,7 +5,7 @@ class MYHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("我的首页"),
+        title: Text("测试首页"),
       ),
       body: MYHomeBody(),
     );
