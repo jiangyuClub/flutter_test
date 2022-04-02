@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/dart_test/Theme/app_theme.dart';
+import 'package:flutter_app/dart_test/Theme/shared/app_theme.dart';
 
 void main() => runApp(MyApp());
 

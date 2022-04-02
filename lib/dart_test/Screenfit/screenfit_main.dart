@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/dart_test/Screenfit/size_fit.dart';
+import 'package:flutter_app/dart_test/Screenfit/shared/size_fit.dart';
+import './extension/double_extension.dart';
+import './extension/int_extension.dart';
 
 void main() => runApp(MyApp());
 
@@ -37,7 +39,7 @@ class HYHomePage extends StatelessWidget {
       body: Center(
         child: Container(
           width: HYSizeFit.setRpx(400),
-          height: HYSizeFit.setPx(200),
+          height: 200.px,
           color: Colors.red,
           alignment: Alignment.center,
           child: Text("Hello World", style: TextStyle(fontSize: 40 * HYSizeFit.rpx),),
